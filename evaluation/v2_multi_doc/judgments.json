@@ -1,0 +1,677 @@
+{
+  "G01__r0": {
+    "qid": "G01",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "A",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A directly addresses the core architectural innovations with specific technical details from the original Transformer paper, while Response B introduces tangential concepts (MLM, NSP) that are not architectural innovations of Transformers themselves and ends incomplete; however, B attempts broader scope by mentioning pre-training which adds diversity despite being less accurate."
+  },
+  "G01__r1": {
+    "qid": "G01",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "A",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response B directly addresses the core architectural innovations (multi-headed self-attention, global dependencies, computational efficiency) with clarity, while Response A introduces tangential concepts (pre-training objectives, MLM, NSP) that are important but not core architectural innovations, and contains an incomplete sentence that undermines its quality."
+  },
+  "G01__r2": {
+    "qid": "G01",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "A",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A directly addresses the core architectural innovations with specific technical details and computational advantages, while Response B introduces pre-training objectives and causal self-attention that are less central to the fundamental architectural comparison, though it offers more varied perspectives before becoming incomplete."
+  },
+  "G02__r0": {
+    "qid": "G02",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly addresses how word embeddings serve as input to the attention mechanism and their role in computing attention weights, while Response A focuses on positional encoding rather than word embeddings themselves and acknowledges the passages don't directly address the question."
+  },
+  "G02__r1": {
+    "qid": "G02",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A directly addresses the relationship between word embeddings and attention mechanisms with concrete explanations, while Response B deflects by claiming the passages don't address the question and instead discusses positional encodings, which is tangential to the core question."
+  },
+  "G02__r2": {
+    "qid": "G02",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly addresses how word embeddings serve as input to the attention mechanism and their role in computing attention weights, while Response A focuses on positional encoding rather than word embeddings themselves and acknowledges the passages don't directly address the question."
+  },
+  "G03__r0": {
+    "qid": "G03",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly answers the question with substantive information about the key differences between autoregressive and masked language models, while Response A declines to answer by claiming lack of source material."
+  },
+  "G03__r1": {
+    "qid": "G03",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A directly addresses the question with specific details about autoregressive and masked language models despite being incomplete, while Response B declines to answer by claiming lack of source material, making it unhelpful regardless of the evaluation context."
+  },
+  "G03__r2": {
+    "qid": "G03",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly answers the question with substantive information about the key differences between autoregressive and masked language models, while Response A refuses to answer by claiming lack of source material, making it impossible to evaluate comprehensiveness or diversity."
+  },
+  "G04__r0": {
+    "qid": "G04",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly addresses the progression narrative with specific model examples (BERT, RoBERTa, SpanBERT) and explains the mechanisms driving the shift (self-attention, multi-head attention, masked language modeling), while Response A hedges by stating the information is not explicitly provided and only infers basic facts."
+  },
+  "G04__r1": {
+    "qid": "G04",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A directly addresses the progression with specific architectural innovations and model examples, while Response B hedges its answer by claiming passages weren't provided and offers only generic inferences about Transformer advantages."
+  },
+  "G04__r2": {
+    "qid": "G04",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly addresses the progression narrative with specific model examples (BERT, RoBERTa, SpanBERT) and explains the mechanisms driving the shift (self-attention, multi-head attention, masked language modeling), while Response A hedges by stating the information is not explicitly in provided passages and only infers basic points."
+  },
+  "G05__r0": {
+    "qid": "G05",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B covers multiple NLP tasks and metrics (sequence labeling, machine translation, textual entailment, paraphrase detection, WSD) with diverse evaluation approaches, while Response A focuses narrowly on BLEU score for machine translation and acknowledges the passages don't explicitly address the broader question."
+  },
+  "G05__r1": {
+    "qid": "G05",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A directly addresses the question by listing multiple NLP evaluation metrics and explaining their applications across different task types, while Response B focuses narrowly on BLEU score and references passages that weren't provided in the original question."
+  },
+  "G05__r2": {
+    "qid": "G05",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B covers multiple NLP tasks and metrics (sequence labeling, machine translation, textual entailment, paraphrase detection, WSD) with diverse evaluation approaches, while Response A focuses narrowly on BLEU score for machine translation and acknowledges the passages don't explicitly address the broader question."
+  },
+  "G06__r0": {
+    "qid": "G06",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B provides a more complete and direct explanation of pre-training and fine-tuning with specific examples (BERT, GPT-2, masked language modeling), while Response A acknowledges missing source material and provides only generic definitions before trailing off incompletely."
+  },
+  "G06__r1": {
+    "qid": "G06",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A provides a clear, complete explanation of pre-training and fine-tuning with concrete examples (BERT, GPT-2, specific tasks), while Response B hedges its answer by claiming lack of source material and provides incomplete, fragmented information that trails off mid-sentence."
+  },
+  "G06__r2": {
+    "qid": "G06",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B provides a more complete and direct explanation of pre-training and fine-tuning with specific examples (BERT, GPT-2, masked language modeling), while Response A acknowledges missing source material and provides only generic definitions before trailing off incompletely."
+  },
+  "G07__r0": {
+    "qid": "G07",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B addresses multiple substantive challenges (computational resources, overfitting, training objectives, hyperparameter selection, data quality, underfitting) while Response A relies heavily on inference from limited document passages and only vaguely mentions computational requirements."
+  },
+  "G07__r1": {
+    "qid": "G07",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A directly addresses multiple concrete challenges (computational resources, overfitting, training objectives, data quality, underfitting) while Response B relies heavily on inference from limited document passages and provides minimal substantive content."
+  },
+  "G07__r2": {
+    "qid": "G07",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B addresses multiple substantive challenges (computational resources, overfitting, training objectives, hyperparameter selection, data quality, underfitting) while Response A relies heavily on inference from limited document passages and only vaguely mentions computational requirements."
+  },
+  "G08__r0": {
+    "qid": "G08",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly answers the question with specific details about how RAG works and its benefits, while Response A declines to answer by claiming lack of source material, making B substantially more informative despite being incomplete at the end."
+  },
+  "G08__r1": {
+    "qid": "G08",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A directly addresses the question with specific examples and explanations of how RAG works, while Response B refuses to answer by claiming the passages don't cover the topic, making it unhelpful regardless of whether passages were actually provided."
+  },
+  "G08__r2": {
+    "qid": "G08",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly answers the question with specific details about how RAG works and its benefits, while Response A declines to answer by claiming lack of source material, making B substantially more informative despite being incomplete at the end."
+  },
+  "G09__r0": {
+    "qid": "G09",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly addresses the question by explaining the encoder-decoder architecture's role across multiple NLP tasks (masked language modeling, sequence transduction, machine translation, sequence labeling), while Response A acknowledges it cannot answer the question without additional context."
+  },
+  "G09__r1": {
+    "qid": "G09",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A provides substantive coverage of encoder-decoder roles across multiple NLP tasks (masked language modeling, machine translation, sequence labeling) with specific model examples, while Response B acknowledges limited source material and declines to answer comprehensively."
+  },
+  "G09__r2": {
+    "qid": "G09",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly addresses the question by explaining the encoder-decoder architecture's role across multiple NLP tasks (masked language modeling, sequence transduction, machine translation, sequence labeling), while Response A declines to answer, stating insufficient information is available."
+  },
+  "G10__r0": {
+    "qid": "G10",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "A",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A provides more concrete technical details about attention mechanisms (multi-head vs single-head with specific architectural components), while Response B offers broader contextual discussion but remains vague; however, Response B attempts to cover more mechanism variants (causal self-attention, masking) despite being less direct overall."
+  },
+  "G10__r1": {
+    "qid": "G10",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "A",
+    "diversity": "A",
+    "directness": "A",
+    "reasoning": "Response B directly addresses the question by comparing multi-head vs single-head attention with specific efficiency metrics (sequence length vs dimensionality), while Response A is vague, incomplete, and admits it may not have direct comparisons available."
+  },
+  "G10__r2": {
+    "qid": "G10",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "A",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A provides more concrete technical details about attention mechanisms (multi-head vs single-head, computational efficiency conditions), while Response B offers broader contextual discussion but remains vague; however, Response B attempts to cover more mechanism variants (causal self-attention, masking) despite being less direct overall."
+  },
+  "G11__r0": {
+    "qid": "G11",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A directly answers with a clear list from source material but covers fewer applications, while Response B provides more varied applications (including machine translation, speech recognition, paraphrase detection, NER) with broader context, though it's less direct and somewhat incomplete at the end."
+  },
+  "G11__r1": {
+    "qid": "G11",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A covers more applications (8+ tasks) with greater variety, but Response B presents them more directly and clearly without incomplete sentences or citation artifacts."
+  },
+  "G11__r2": {
+    "qid": "G11",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A directly answers with a clear list from source material but covers fewer applications, while Response B is more comprehensive and diverse in applications mentioned but is less direct and includes incomplete sentences and citation formatting that undermines clarity."
+  },
+  "G12__r0": {
+    "qid": "G12",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly addresses the question with specific examples and mechanisms of self-supervised learning in LLMs, while Response A declines to answer by claiming the source material doesn't cover the topic."
+  },
+  "G12__r1": {
+    "qid": "G12",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A provides substantive technical content about self-supervised learning mechanisms (masked language modeling, next sentence prediction, denoising) with concrete examples, while Response B declines to answer by claiming the source material is insufficient."
+  },
+  "G12__r2": {
+    "qid": "G12",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly addresses the question with specific examples and mechanisms of self-supervised learning in LLMs, while Response A declines to answer by claiming the source material doesn't cover the topic."
+  },
+  "G13__r0": {
+    "qid": "G13",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B covers more components (pre-training objectives, transformer architecture, subword tokenization, positional embeddings, multi-head attention) with greater variety and clearer relevance to modern NLP, while Response A focuses narrowly on attention mechanisms and appears incomplete/cut off."
+  },
+  "G13__r1": {
+    "qid": "G13",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A covers more ground by including pre-training objectives, transformer architecture, attention mechanisms, subword tokenization, and positional embeddings, while Response B focuses narrowly on attention-related components and training techniques, and both responses are incomplete but A provides broader architectural coverage."
+  },
+  "G13__r2": {
+    "qid": "G13",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B covers more components (pre-training objectives, transformer architecture, subword tokenization, positional embeddings, multi-head attention) with greater variety and clearer relevance to modern NLP, while Response A focuses narrowly on attention mechanisms and training techniques without addressing pre-training or transformer architecture."
+  },
+  "G14__r0": {
+    "qid": "G14",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "A",
+    "diversity": "A",
+    "directness": "A",
+    "reasoning": "Response A provides specific, concrete evidence (BLEU scores, training efficiency, benchmark results) directly answering the question, while Response B makes vague claims about attention mechanisms without substantive details and appears incomplete."
+  },
+  "G14__r1": {
+    "qid": "G14",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "A",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response B directly answers with specific, concrete results and benefits, while Response A attempts broader coverage but is vague, incomplete, and includes unclear citations; however, Response A tries to address multiple aspects (attention mechanisms, applications, performance) despite execution issues."
+  },
+  "G14__r2": {
+    "qid": "G14",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "A",
+    "diversity": "A",
+    "directness": "A",
+    "reasoning": "Response A provides specific, concrete evidence (BLEU scores, training efficiency, benchmark results) directly answering the question, while Response B makes vague claims with unclear citations, incomplete sentences, and lacks substantive details about how Transformers benefit machine translation."
+  },
+  "G15__r0": {
+    "qid": "G15",
+    "qtype": "GLOBAL",
+    "repeat": 0,
+    "comprehensiveness": "A",
+    "diversity": "A",
+    "directness": "A",
+    "reasoning": "Response A provides specific, concrete trade-offs for three major approaches (RNNs, CNNs, Transformers) with technical details about parallelization and computational complexity, while Response B offers vague generalities without concrete comparisons and trails off incomplete."
+  },
+  "G15__r1": {
+    "qid": "G15",
+    "qtype": "GLOBAL",
+    "repeat": 1,
+    "comprehensiveness": "A",
+    "diversity": "A",
+    "directness": "A",
+    "reasoning": "Response B provides specific computational trade-offs across three major sequence modeling approaches (RNNs, CNNs, Transformers) with concrete details about parallelization and complexity scaling, while Response A makes general claims without substantive technical details and appears incomplete."
+  },
+  "G15__r2": {
+    "qid": "G15",
+    "qtype": "GLOBAL",
+    "repeat": 2,
+    "comprehensiveness": "A",
+    "diversity": "A",
+    "directness": "A",
+    "reasoning": "Response A provides specific, concrete trade-offs for three major approaches (RNNs, CNNs, Transformers) with technical details about parallelization and computational complexity, while Response B offers vague generalities that are incomplete and lack substantive technical content."
+  },
+  "L01__r0": {
+    "qid": "L01",
+    "qtype": "LOCAL",
+    "repeat": 0,
+    "comprehensiveness": "A",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A directly answers the question with a specific BLEU score (28.4), while Response B acknowledges uncertainty and explores related concepts; however, Response A's directness and comprehensiveness in providing the factual answer outweigh Response B's broader contextual discussion."
+  },
+  "L01__r1": {
+    "qid": "L01",
+    "qtype": "LOCAL",
+    "repeat": 1,
+    "comprehensiveness": "A",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response B directly answers the specific question with a concrete BLEU score (28.4), while Response A provides more contextual discussion but ultimately fails to answer; however, Response A's broader exploration of related topics gives it an edge in diversity despite being less useful overall."
+  },
+  "L01__r2": {
+    "qid": "L01",
+    "qtype": "LOCAL",
+    "repeat": 2,
+    "comprehensiveness": "A",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A directly answers the question with a specific BLEU score (28.4), while Response B acknowledges uncertainty and explores related concepts; however, A is more comprehensive and direct for this factual query, though B provides more diverse contextual discussion."
+  },
+  "L02__r0": {
+    "qid": "L02",
+    "qtype": "LOCAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A directly answers with the core formula but omits the crucial scaling factor and value matrix multiplication; Response B provides the complete formula with scaling, explains the components, and discusses broader context, though it's incomplete at the end and less direct."
+  },
+  "L02__r1": {
+    "qid": "L02",
+    "qtype": "LOCAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A provides more comprehensive coverage with multiple formula representations and context about applications, while Response B is more direct but incomplete (missing the scaling factor sqrt(d) and the value matrix V multiplication, making it technically incorrect)."
+  },
+  "L02__r2": {
+    "qid": "L02",
+    "qtype": "LOCAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A directly answers with the core formula but omits the crucial scaling factor and value matrix multiplication; Response B provides the complete formula with scaling, explains the components, and discusses broader context, though it becomes verbose and incomplete at the end."
+  },
+  "L03__r0": {
+    "qid": "L03",
+    "qtype": "LOCAL",
+    "repeat": 0,
+    "comprehensiveness": "A",
+    "diversity": "A",
+    "directness": "A",
+    "reasoning": "Response A provides a direct, accurate answer (8 heads) with a clear source citation, while Response B gives an incorrect answer (12 heads), includes speculative reasoning, incomplete sentences, and cites non-existent sources."
+  },
+  "L03__r1": {
+    "qid": "L03",
+    "qtype": "LOCAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response B directly answers the question with a specific number (8 heads) from a cited source, while Response A provides more comprehensive discussion but incorrectly states 12 heads and is less direct despite greater length."
+  },
+  "L03__r2": {
+    "qid": "L03",
+    "qtype": "LOCAL",
+    "repeat": 2,
+    "comprehensiveness": "A",
+    "diversity": "A",
+    "directness": "A",
+    "reasoning": "Response A provides a direct, accurate answer (8 heads) with a clear source citation, while Response B gives an incorrect answer (12 heads), includes speculative reasoning, incomplete sentences, and cites non-existent sources."
+  },
+  "L04__r0": {
+    "qid": "L04",
+    "qtype": "LOCAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A is most direct by honestly acknowledging limitations, while Response B is more comprehensive and diverse by explaining BPE's connections to subword tokenization and transformer models, though it becomes incomplete and less direct at the end."
+  },
+  "L04__r1": {
+    "qid": "L04",
+    "qtype": "LOCAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A attempts to explain BPE and its connections to subword tokenization and transformer models despite being incomplete, while Response B declines to answer entirely, making A more comprehensive, diverse, and direct regardless of its limitations."
+  },
+  "L04__r2": {
+    "qid": "L04",
+    "qtype": "LOCAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A is most direct by honestly acknowledging limitations, while Response B is more comprehensive and diverse by explaining BPE's connections to subword tokenization and transformer models, though it becomes incomplete and less direct at the end."
+  },
+  "L05__r0": {
+    "qid": "L05",
+    "qtype": "LOCAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B attempts to answer the question with relevant information about parameter counts and training data differences, while Response A refuses to answer by claiming lack of source material, making B more comprehensive, diverse, and direct despite being somewhat verbose and incomplete."
+  },
+  "L05__r1": {
+    "qid": "L05",
+    "qtype": "LOCAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A directly addresses the question with specific information about parameter counts and training differences between BERT variants, while Response B incorrectly claims no relevant information is available and refuses to answer."
+  },
+  "L05__r2": {
+    "qid": "L05",
+    "qtype": "LOCAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B attempts to answer the question with relevant information about parameter counts and training data differences, while Response A refuses to answer by claiming lack of source material, making B more comprehensive, diverse, and direct despite being somewhat verbose and incomplete."
+  },
+  "L06__r0": {
+    "qid": "L06",
+    "qtype": "LOCAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly answers the question with substantive information about perplexity's definition, mechanism, and application to language models, while Response A declines to answer by claiming lack of source material."
+  },
+  "L06__r1": {
+    "qid": "L06",
+    "qtype": "LOCAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response A provides a substantive explanation of perplexity and its applications despite being incomplete, while Response B declines to answer by claiming lack of source material, making it unhelpful regardless of the evaluation context."
+  },
+  "L06__r2": {
+    "qid": "L06",
+    "qtype": "LOCAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly answers the question with substantive information about perplexity's definition and application, while Response A declines to answer by claiming lack of source material, making it impossible to evaluate comprehensiveness or diversity."
+  },
+  "L07__r0": {
+    "qid": "L07",
+    "qtype": "LOCAL",
+    "repeat": 0,
+    "comprehensiveness": "A",
+    "diversity": "A",
+    "directness": "A",
+    "reasoning": "Response A provides a direct, specific answer with exact hyperparameter values from the source material, while Response B offers only speculation and hedging without concrete information."
+  },
+  "L07__r1": {
+    "qid": "L07",
+    "qtype": "LOCAL",
+    "repeat": 1,
+    "comprehensiveness": "A",
+    "diversity": "A",
+    "directness": "A",
+    "reasoning": "Response B provides a direct, specific answer with exact hyperparameters from the original paper, while Response A only speculates about likely optimizers without definitive information."
+  },
+  "L07__r2": {
+    "qid": "L07",
+    "qtype": "LOCAL",
+    "repeat": 2,
+    "comprehensiveness": "A",
+    "diversity": "A",
+    "directness": "A",
+    "reasoning": "Response A provides a direct, specific answer with exact hyperparameter values from the source material, while Response B offers only speculation and hedging without concrete information."
+  },
+  "L08__r0": {
+    "qid": "L08",
+    "qtype": "LOCAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A is most direct by honestly acknowledging the source material doesn't contain the answer, while Response B attempts comprehensiveness and diversity by inferring and connecting related concepts, but does so by speculating beyond what's available and becomes less reliable."
+  },
+  "L08__r1": {
+    "qid": "L08",
+    "qtype": "LOCAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A attempts to provide substantive information about skip-gram despite source limitations, offering more coverage and varied insights, but Response B is more direct and honest by acknowledging it cannot answer from available sources rather than making inferences that may be inaccurate."
+  },
+  "L08__r2": {
+    "qid": "L08",
+    "qtype": "LOCAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A is honest about source limitations but provides no information; Response B attempts to answer the question with relevant details about skip-gram despite source constraints, though it becomes somewhat speculative and incomplete toward the end."
+  },
+  "L09__r0": {
+    "qid": "L09",
+    "qtype": "LOCAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A directly answers with specific technical details but lacks explanation of the mechanism, while Response B attempts to explain how beam search works conceptually but is verbose, incomplete, and less direct despite being more comprehensive in scope."
+  },
+  "L09__r1": {
+    "qid": "L09",
+    "qtype": "LOCAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A attempts to explain beam search mechanics despite being incomplete and somewhat incoherent, while Response B only cites a specific experimental parameter without explaining how beam search actually works; A is more comprehensive and diverse but B is more direct in its brevity, though neither response adequately answers the question."
+  },
+  "L09__r2": {
+    "qid": "L09",
+    "qtype": "LOCAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A directly answers with specific technical details but lacks explanation of the mechanism, while Response B attempts to explain how beam search works conceptually but is verbose, incomplete, and less direct despite being more comprehensive in scope."
+  },
+  "L10__r0": {
+    "qid": "L10",
+    "qtype": "LOCAL",
+    "repeat": 0,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly answers the question with substantive information about masked language modeling despite lacking source material, while Response A refuses to answer by claiming no relevant information was provided."
+  },
+  "L10__r1": {
+    "qid": "L10",
+    "qtype": "LOCAL",
+    "repeat": 1,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "A",
+    "reasoning": "Response A provides more comprehensive and diverse coverage of MLM concepts despite using fabricated citations, while Response B is more direct by honestly acknowledging the absence of source material rather than hallucinating references."
+  },
+  "L10__r2": {
+    "qid": "L10",
+    "qtype": "LOCAL",
+    "repeat": 2,
+    "comprehensiveness": "B",
+    "diversity": "B",
+    "directness": "B",
+    "reasoning": "Response B directly answers the question with substantive information about masked language modeling despite lacking source material, while Response A refuses to answer by claiming no relevant information was provided."
+  }
+}

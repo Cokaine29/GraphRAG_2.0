@@ -1,0 +1,59 @@
+# GraphRAG Configuration
+# All tunable parameters in one place. Change here, not in code.
+
+# ── Chunking ──────────────────────────────────────────────────
+chunking:
+  chunk_size: 600
+  overlap_sentences: 2
+  min_chunk_tokens: 50
+
+# ── LLM Clients ───────────────────────────────────────────────
+llm:
+  extraction_provider: groq
+  extraction_model: llama-3.1-8b-instant
+  generation_provider: ollama
+  generation_model: qwen3:8b
+  embedding_provider: ollama
+  embedding_model: nomic-embed-text:latest
+  temperature: 0.0
+  max_retries: 10
+  retry_delay_seconds: 15
+
+# ── Extraction ────────────────────────────────────────────────
+extraction:
+  glean_rounds: 2
+  cache_dir: cache/extractions
+  batch_delay_seconds: 1.5
+
+# ── Graph Construction ────────────────────────────────────────
+graph:
+  min_entity_freq: 1
+  similarity_threshold: 0.85
+  output_path: outputs/graphs/knowledge_graph.gml
+
+# ── Community Detection ───────────────────────────────────────
+community:
+  leiden_resolutions: [0.5, 1.0, 2.0]
+  min_community_size: 3
+  summary_max_tokens: 500
+  summary_cache_dir: outputs/summaries/
+
+# ── Retrieval ─────────────────────────────────────────────────
+retrieval:
+  top_k: 5
+  top_communities: 10
+  map_top_k: 5
+  router_confidence_threshold: 0.6
+
+# ── ChromaDB ──────────────────────────────────────────────────
+chromadb:
+  persist_dir: outputs/embeddings/
+  collection_name: graphrag_chunks
+
+# ── Evaluation ────────────────────────────────────────────────
+evaluation:
+  n_personas: 5
+  n_tasks_per_persona: 5
+  n_questions_per_task: 5
+  judge_repeats: 3
+  output_dir: evaluation/

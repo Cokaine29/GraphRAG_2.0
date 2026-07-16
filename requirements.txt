@@ -1,0 +1,37 @@
+# GraphRAG — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core
+pyyaml>=6.0
+python-dotenv>=1.0
+
+# NLP + chunking
+spacy>=3.7
+tiktoken>=0.6
+
+# LLM providers
+google-generativeai>=0.5
+groq>=0.5
+
+# Graph
+networkx>=3.2
+graspologic>=3.3
+
+# Community detection (install one)
+leidenalg>=0.10       # fallback if graspologic fails
+
+# Vector store
+chromadb>=0.4
+
+# PDF parsing (for Person A's extractor + app upload)
+pymupdf>=1.23
+
+# Embeddings fallback (local, no API)
+sentence-transformers>=2.6
+
+# UI
+streamlit>=1.32
+pyvis>=0.3            # interactive graph visualization
+
+# Evaluation
+pandas>=2.0

@@ -1,0 +1,72 @@
+{
+  "version": "v2_multi_doc",
+  "global_win_rates": {
+    "comprehensiveness": {
+      "vanilla_rag%": 26.7,
+      "graphrag%": 73.3,
+      "tie%": 0.0,
+      "total": 45
+    },
+    "diversity": {
+      "vanilla_rag%": 13.3,
+      "graphrag%": 86.7,
+      "tie%": 0.0,
+      "total": 45
+    },
+    "directness": {
+      "vanilla_rag%": 33.3,
+      "graphrag%": 66.7,
+      "tie%": 0.0,
+      "total": 45
+    }
+  },
+  "local_win_rates": {
+    "comprehensiveness": {
+      "vanilla_rag%": 26.7,
+      "graphrag%": 73.3,
+      "tie%": 0.0,
+      "total": 30
+    },
+    "diversity": {
+      "vanilla_rag%": 16.7,
+      "graphrag%": 83.3,
+      "tie%": 0.0,
+      "total": 30
+    },
+    "directness": {
+      "vanilla_rag%": 70.0,
+      "graphrag%": 30.0,
+      "tie%": 0.0,
+      "total": 30
+    }
+  },
+  "overall_win_rates": {
+    "comprehensiveness": {
+      "vanilla_rag%": 26.7,
+      "graphrag%": 73.3,
+      "tie%": 0.0,
+      "total": 75
+    },
+    "diversity": {
+      "vanilla_rag%": 14.7,
+      "graphrag%": 85.3,
+      "tie%": 0.0,
+      "total": 75
+    },
+    "directness": {
+      "vanilla_rag%": 48.0,
+      "graphrag%": 52.0,
+      "tie%": 0.0,
+      "total": 75
+    }
+  },
+  "total_questions": 25,
+  "global_questions": 15,
+  "local_questions": 10,
+  "total_judgments": 75,
+  "successful": 75,
+  "judge_model": "claude-haiku-4-5-20251001",
+  "graph_nodes": 414,
+  "graph_edges": 733,
+  "n_communities": 12
+}
