@@ -46,10 +46,9 @@ Partial answers (ranked by relevance):
 
 Instructions:
 - Synthesize these partial answers into one coherent, well-structured response
-- Cover all important points without repetition
-- Use clear academic language
+- IMPORTANT: Strictly adhere to any formatting, length, or style constraints requested in the User Query (e.g., if the user asks for "just 2 lines", your final answer MUST be exactly 2 lines).
 - If partial answers conflict, acknowledge both perspectives
-- Length: 200-400 words
+- If no specific length is requested, provide a comprehensive but concise answer.
 
 Final Answer:"""
 
